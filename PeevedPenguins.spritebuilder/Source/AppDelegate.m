@@ -54,6 +54,11 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
+    
+    // Test method - to see if correctly initialize
+//    [CCBReader load:@"Penguin"];
+//    [CCBReader load:@"Seal"];
+    
     return YES;
 }
 

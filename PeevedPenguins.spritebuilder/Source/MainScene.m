@@ -10,4 +10,13 @@
 
 @implementation MainScene
 
+- (void)play{
+    // Testing methods
+    // CCLOG(@"Play button pressed");
+    
+    // This is how you replace main scenes on the storyboard
+    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
+    [[CCDirector sharedDirector] replaceScene:gameplayScene];
+}
+
 @end
